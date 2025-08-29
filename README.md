@@ -22,7 +22,7 @@ preview rows.
 Retail Sales Dataset (Sample Sales Data)
 Source: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets
 
-## 🧹 Day 3 – Handling Missing Data
+##  Day 3 – Handling Missing Data
 - Checked for missing values using `isna().sum()`
 - Applied the following methods:
 - Dropped rows with all-null values (if any)
@@ -30,7 +30,7 @@ Source: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monito
 columns
 - Cleaned dataset saved as `/content/StressLevelDataset.csv`
 
-- ## 🔄 Day 4 – Fix Data Types & Remove Duplicates
+- ##  Day 4 – Fix Data Types & Remove Duplicates
 - Converted date columns to datetime format using
 `pd.to_datetime()`
 - Ensured numeric columns are in correct type using
@@ -50,6 +50,58 @@ and 1.
 - Loaded preprocessed dataset from Day 5.
 - Verified data integrity and structure.
 - Exported final dataset as `/content/final_data_for_powerbi.csv` for visualization in Power BI.
+
+- visualization_plan.md
+
+# Day 7 – Data Visualization Plan for Power BI
+
+## 📈 Dashboard Objective
+To explore student stress levels and the factors that affect them, such as sleep, academic pressure, and mental health history.
+
+## 🔑 KPIs to Display
+- Average Stress Level
+- Stress Level by Gender
+- Sleep Quality vs Stress Level
+- Academic Pressure vs Stress Level
+- Mental Health History Distribution
+
+## 📊 Planned Visuals
+
+| KPI                             | Chart Type    | Description                                                   |
+|----------------------------------|---------------|---------------------------------------------------------------|
+| Average Stress Level            | Card          | Show overall average stress from all students                 |
+| Stress by Gender                | Bar Chart     | Compare average stress across genders                         |
+| Sleep Quality vs Stress         | Scatter Plot  | Show relationship between sleep and stress                    |
+| Academic Pressure vs Stress     | Line Chart    | Track how pressure affects stress                             |
+| Mental Health History Breakdown | Donut Chart   | Show how many students have or don't have mental health issues |
+
+ 1. Which gender reports higher stress levels?
+
+Answer: By grouping average stress level by gender (using a bar chart), we can identify whether male or female students report higher stress on average.
+
+ 2. Is there a correlation between sleep quality and stress level?
+
+Answer: A scatter plot or line chart can show if poor sleep quality is associated with high stress — indicating a possible inverse relationship.
+
+ 3. Do students with a history of mental health issues have higher stress levels?
+
+Answer: Comparing the stress levels between students who answered "Yes" and "No" to having a mental health history can highlight a significant difference.
+
+ 4. How does academic pressure affect student stress?
+
+Answer: Plotting academic pressure against stress level can help show if increasing academic demands directly increase stress levels.
+
+ 5. What percentage of students receive support during stress?
+
+Answer: A pie chart showing “Got Support” vs “Didn’t Get Support” gives a quick view of whether students have access to help when stressed.
+
+ 6. What is the average stress level among all students?
+
+Answer: This is a KPI that can be displayed as a Card in Power BI showing the mean stress score.
+
+## ⚙️ Next Step
+Use this plan to create a Power BI dashboard tomorrow using `final_data_for_powerbi.csv`.
+
 
 
 
