@@ -16,8 +16,7 @@ future data analytics tasks.
 
 # EDA Task - 19 Aug
 ## 📘 Objective
-Beginner-level EDA using pandas: load dataset, check shape, column names, and
-preview rows.
+Beginner-level EDA using pandas: load dataset, check shape, column names, and preview rows.
 ## 📂 Dataset
 Retail Sales Dataset (Sample Sales Data)
 Source: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monitoring-datasets
@@ -26,22 +25,18 @@ Source: https://www.kaggle.com/datasets/mdsultanulislamovi/student-stress-monito
 - Checked for missing values using `isna().sum()`
 - Applied the following methods:
 - Dropped rows with all-null values (if any)
-- Imputed missing values in numeric/categorical
-columns
+- Imputed missing values in numeric/categorical columns
 - Cleaned dataset saved as `/content/StressLevelDataset.csv`
 
 - ##  Day 4 – Fix Data Types & Remove Duplicates
-- Converted date columns to datetime format using
-`pd.to_datetime()`
-- Ensured numeric columns are in correct type using
-`pd.to_numeric()`
+- Converted date columns to datetime format using `pd.to_datetime()`
+- Ensured numeric columns are in correct type using `pd.to_numeric()`
 - Removed duplicate records using `drop_duplicates()`
 - Saved updated dataset as `/content/StressLevelDataset.csv`
 
 ## 📊 Day 5 – Data Normalization & Scaling
 - Identified numerical columns in the dataset.
-- Applied `MinMaxScaler` to normalize values between 0
-and 1.
+- Applied `MinMaxScaler` to normalize values between 0 and 1.
 - Saved the preprocessed dataset as
 `data/preprocessed_data.csv`.
 - All steps are documented in `preprocessing.ipynb`.
@@ -52,6 +47,7 @@ and 1.
 - Exported final dataset as `/content/final_data_for_powerbi.csv` for visualization in Power BI.
 
 - visualization_plan.md
+
 
 # Day 7 – Data Visualization Plan for Power BI
 
@@ -105,6 +101,10 @@ Use this plan to create a Power BI dashboard tomorrow using `final_data_for_powe
 
 
 
+## Day 9 – Power BI Data Connection
+- Loaded dataset `final_data_for_powerbi.csv` into Power BI.
+- Verified the data model and field types.
+- Saved the Power BI file as `data_model.pbix` for visualization in Day 10
 
 
 
@@ -130,10 +130,7 @@ Use this plan to create a Power BI dashboard tomorrow using `final_data_for_powe
 
 
 
-
-Data Preprocessing Summary
-Append this section at the end of the README:
-## 🧾 Data Preprocessing Summary (Day 8)
+## Data Preprocessing Summary (Day 8)
 Below are the steps performed during the preprocessing
 pipeline:
 1. **Handled Missing Values (Day 3):**
