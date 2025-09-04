@@ -106,6 +106,18 @@ Use this plan to create a Power BI dashboard tomorrow using `final_data_for_powe
 - Verified the data model and field types.
 - Saved the Power BI file as `data_model.pbix` for visualization in Day 10
 
+##  Day 10 – Power BI Data Modeling (Student Stress Monitoring)
+
+- Loaded and analyzed main dataset: Student Stress Factors
+- Created dimension tables:
+  - DimPsychological
+  - DimPhysiological
+  - DimSocial
+  - DimEnvironmental
+  - DimAcademic
+  - DimStressLevel
+- Built clean star schema using proper relationships
+- Saved model in `data_model.pbix`
 
 
 
