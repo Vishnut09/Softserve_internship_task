@@ -117,12 +117,29 @@ Use this plan to create a Power BI dashboard tomorrow using `final_data_for_powe
   - DimAcademic
   - DimStressLevel
 - Built clean star schema using proper relationships
-- Saved model in `data_model.pbix`
+- Saved model in `Stress level prediction dashboard.pbix`
+
+## 📊 Day 11 – Power BI Dashboard
+
+- Designed interactive dashboard using student stress dataset
+- Created:
+  - Bar Chart (Stress by Academic Performance)
+  - Line Chart (Stress Trend)
+  - Pie Chart (Stress by Psychological Factor)
+- Added KPI Cards:
+  - Total Students
+  - Average Stress Level
+- Used Slicers for filtering:
+  - Academic Performance
+  - Sleep Quality
+  - Anxiety Level
+- Saved dashboard as `Stress level prediction dashboard.pbix`
 
 
 
-
-
+##  Day 12 – Publish Power BI Dashboard
+- Dashboard published to Power BI Cloud.
+- Live Web Link: https://app.powerbi.com/groups/me/reports/79f99d54-1f2e-4742-a00b-745e56ce2794/1cbd039aeb9e70918e67?experience=power-bi
 
 
 
